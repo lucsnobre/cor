@@ -32,7 +32,7 @@ body{
     border-radius: 25px;
     background-color: white;
     transition: background-color 0.4s, border-radius 0.4s;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     
 }
 
