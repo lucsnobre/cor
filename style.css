@@ -14,16 +14,30 @@ body{
     justify-content: center;
     align-items: center;
     background-color: var(--cor-fundo);
-    transition: background-color 1s;
+    transition: background-color 1.2s;
 }
 
 #cor {
     padding: 8px 12px;
     font-size: 24px;
+    border-radius: 25px;
 }
 
 #trocar-cor{
     padding: 8px 12px;
     font-size: 24px;
     cursor: pointer;
+    border-radius: 25px;
+    background-color: white;
+}
+
+#trocar-cor:hover{
+    background-color: rgb(190, 189, 189);
+    transition: 0.4s;
+    border-radius: 6.7px;
+}
+
+#cor:hover{
+    border-radius:6.7px ;
+    transition: 0.4s;
 }
