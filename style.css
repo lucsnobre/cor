@@ -21,6 +21,8 @@ body{
     padding: 8px 12px;
     font-size: 24px;
     border-radius: 25px;
+    transition: border-color 0.4s, border-radius 0.4s;
+    border-color: black;
 }
 
 #trocar-cor{
@@ -29,10 +31,13 @@ body{
     cursor: pointer;
     border-radius: 25px;
     background-color: white;
+    transition: background-color 0.4s, border-radius 0.4s;
+    border-color: black;
+    
 }
 
 #trocar-cor:hover{
-    background-color: rgb(190, 189, 189);
+    background-color: rgb(221, 221, 221);
     transition: 0.4s;
     border-radius: 6.7px;
 }
@@ -40,4 +45,6 @@ body{
 #cor:hover{
     border-radius:6.7px ;
     transition: 0.4s;
+    background-color: rgb(221, 221, 221);
+    
 }
